@@ -2,12 +2,12 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: Pharmacy-ns
+  name: pharmacy-ns
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: Pharmacy-ns
+  namespace: pharmacy-ns
   name: deploymentPh
 spec:
   selector:
