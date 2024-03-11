@@ -20,7 +20,7 @@ spec:
         app.kubernetes.io/name: pharmacy-app
     spec:
       containers:
-      - image: alexwhen/docker-2048
+      - image: nikitadockermain/pharmacy
         imagePullPolicy: Always
         name: pharmacy-app
         ports:
